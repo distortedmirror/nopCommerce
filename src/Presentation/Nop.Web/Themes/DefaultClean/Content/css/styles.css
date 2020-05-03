@@ -838,6 +838,7 @@ label, label + * {
 }
 
 .header-logo {
+  display: none !important;
 	margin: 0 0 20px;
 	text-align: center;
 }
@@ -7407,4 +7408,8 @@ pre {
     max-width: 100%;
 }
 
+}
+
+.currency-selector {
+    display: none !important;
 }
